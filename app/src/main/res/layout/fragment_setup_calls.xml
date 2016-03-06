@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".SetupCalls">
+    <TextView
+        android:id="@+id/thisview"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Select Contact"
+        android:background="#ffffff"
+        android:alpha="0.4" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <Button
+            android:text="Add Contacts"
+            android:id="@+id/createButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+        </Button>
+
+        <Space
+            android:layout_width="170dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="Delete Contact"
+            android:id="@+id/deleteButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+        </Button>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:id="@+id/namTextEdit"
+        android:text="Enter recipient&apos;s name" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/numTextEdit"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Insert number ^"
+        android:id="@+id/textView"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+

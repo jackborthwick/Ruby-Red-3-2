@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RubyRed</string>
+    <string name="parse_app_id">RYr8pST0LXyj4f320T5NZat4h2aolvBlMSzVidCv</string>
+    <string name="parse_client_key">JVKo8ct3PImITWVZAFhbG5S1IOxLw9ZGwnfCLxaR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>
